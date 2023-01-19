@@ -1,0 +1,11 @@
+.box {
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  margin: 2px;
+}
+.active {
+  border: 2px solid #f9be3d;
+  transform: scale(1.2);
+}

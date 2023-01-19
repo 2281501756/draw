@@ -1,0 +1,50 @@
+.roomPage {
+  position: absolute;
+  left:  50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 0 20px 20px;
+}
+
+.title {
+  height: 10%;
+  min-height: 84px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffbf00;
+  letter-spacing: 7px;
+  text-shadow: 0 -1px 0 #fffa6d, #001b51 3px 0 0, #001b51 2.83487px 0.981584px 0, #001b51 2.35766px 1.85511px 0, #001b51 1.62091px 2.52441px 0, #001b51 0.705713px 2.91581px 0, #001b51 -0.287171px 2.98622px 0, #001b51 -1.24844px 2.72789px 0, #001b51 -2.07227px 2.16926px 0, #001b51 -2.66798px 1.37182px 0, #001b51 -2.96998px 0.42336px 0, #001b51 -2.94502px -0.571704px 0, #001b51 -2.59586px -1.50383px 0, #001b51 -1.96093px -2.27041px 0, #001b51 -1.11013px -2.78704px 0, #001b51 -0.137119px -2.99686px 0, #001b51 0.850987px -2.87677px 0, #001b51 1.74541px -2.43999px 0, #001b51 2.44769px -1.73459px 0, #001b51 2.88051px -0.838247px 0;
+}
+.iconBack {
+  width: 370px;
+  height: 84px;
+  background-image: url("/src/assets/title.png");
+  text-align: center;
+  line-height: 68px;
+}
+.back {
+  width: 30px;
+  height: 34px;
+  margin-top: 30px;
+  background: url('/src/assets/svg/back.svg') no-repeat;
+}
+.back:active {
+  transform: scale(0.92);
+}
+.gameBox {
+  height: 432px;
+  background-color: #9fbdc9;
+  border-radius: 10px;
+  border: 1px solid #5d8899;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}

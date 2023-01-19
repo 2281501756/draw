@@ -1,0 +1,22 @@
+.button {
+  width: 194px;
+  height: 42px;
+  box-shadow: 0 0 0 5px #002043, 0 0 0 6px #7c92b0;
+  border-radius: 21px;
+  cursor: pointer;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  font-size: 19px;
+  color: #001b4d;
+}
+.button > strong {
+  margin-right: 20px;
+}
+.model {
+  border-radius: 5px;
+  border: 3px #002043 solid;
+  box-shadow: none;
+  width: 180px;
+
+}

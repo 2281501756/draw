@@ -1,0 +1,131 @@
+.homePage {
+  position: relative;
+  left:  50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 0 20px 20px;
+}
+
+.icon {
+  height: 10%;
+  min-height: 84px;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffbf00;
+  letter-spacing: 7px;
+  text-shadow: 0 -1px 0 #fffa6d, #001b51 3px 0 0, #001b51 2.83487px 0.981584px 0, #001b51 2.35766px 1.85511px 0, #001b51 1.62091px 2.52441px 0, #001b51 0.705713px 2.91581px 0, #001b51 -0.287171px 2.98622px 0, #001b51 -1.24844px 2.72789px 0, #001b51 -2.07227px 2.16926px 0, #001b51 -2.66798px 1.37182px 0, #001b51 -2.96998px 0.42336px 0, #001b51 -2.94502px -0.571704px 0, #001b51 -2.59586px -1.50383px 0, #001b51 -1.96093px -2.27041px 0, #001b51 -1.11013px -2.78704px 0, #001b51 -0.137119px -2.99686px 0, #001b51 0.850987px -2.87677px 0, #001b51 1.74541px -2.43999px 0, #001b51 2.44769px -1.73459px 0, #001b51 2.88051px -0.838247px 0;
+}
+.iconBack {
+  width: 370px;
+  height: 84px;
+  background-image: url("/src/assets/title.png");
+  text-align: center;
+  line-height: 68px;
+}
+.modelBox {
+  height: 80%;
+  display: flex;
+}
+.left, .right {
+  width: calc(50% - 25px);
+}
+.center {
+  width: 50px;
+}
+.gameModelTitle {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 17px;
+  color: #0257bc;
+  font-family: nunitoblack;
+  font-weight: 800;
+}
+.bottomBox {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.userdata {
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+}
+.userPhoto {
+  width: 200px;
+  height: 200px;
+}
+.userPhoto > img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #043173;
+}
+.userName > input {
+  height: 37px;
+  width: 167px;
+  border-radius: 7px;
+  text-align: left;
+  padding: 0 10px;
+  font-size: 18px;
+  border: 2px #868d96 solid;
+  font-family: nunitobold;
+  color: #797979;
+}
+.userName > span {
+  font-family: nunitobold;
+    font-size: 15px;
+    color: #797979;
+    padding: 0 15px 0 0;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center > span {
+  font-family: nunitoblack;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: #868d96;
+  font-size: 18px;
+  border: 2px #c4c5c6 solid;
+  position: absolute;
+}
+.center > span::before {
+  content: '';
+  position: relative;
+  top: -110px;
+  left: 10px;
+  height: 120px;
+  border: 1px #c4c5c6 solid;
+}
+
+.center > span::after {
+  content: '';
+  position: relative;
+  top: 110px;
+  left: -10px;
+  height: 120px;
+  border: 1px #c4c5c6 solid;
+}
+.modelBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+.modelBox > button {
+  margin: 10px;
+}
