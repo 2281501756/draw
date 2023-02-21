@@ -1,6 +1,7 @@
-html, body, #root {
+html, body, #root, #suibianwanwandrawgame {
   width: 100%;
   height: 100%;
+  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
 }
 
 * {
@@ -16,3 +17,39 @@ button {
 button:active {
   transform: scale(0.98);
 }
+
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #bbcdd7;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(162, 162, 163);
+} 
+.el-menu::-webkit-scrollbar,
+.el-table__body-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.el-menu:hover::-webkit-scrollbar,
+.el-table__body-wrapper:hover::-webkit-scrollbar {
+  display: block;
+}
+/* *{
+  scrollbar-arrow-color: #c0c4cc;
+  scrollbar-face-color: #A2A2A3;
+  scrollbar-highlight-color: #A2A2A3;
+  scrollbar-shadow-color: #A2A2A3;
+  scrollbar-track-color: #f4f4f5;
+  scrollbar-3dlight-color:#A2A2A3;
+  scrollbar-darkshadow-color: #A2A2A3;
+  scrollbar-base-color: #f4f4f5; 
+} */

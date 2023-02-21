@@ -18,7 +18,7 @@
   height: 40px;
   margin-top: 20px;
   display: inline-block;
-  background: url('/src/assets/svg/back.svg') no-repeat;
+  background: url('/svg/back.svg') no-repeat;
 }
 .back:active {
   transform: scale(0.92);

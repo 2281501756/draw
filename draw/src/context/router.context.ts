@@ -2,10 +2,12 @@ import { createContext, Dispatch } from 'react'
 
 export interface router {
   name: string
+  meta: any
 }
 
 export const routerInit = {
-  name: 'single',
+  name: 'home',
+  meta: null,
 }
 
 const routerContext = createContext<{
